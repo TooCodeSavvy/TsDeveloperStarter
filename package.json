@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-node-finsweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.21.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@finsweet/ts-utils": "^0.40.0"
+  }
+}
